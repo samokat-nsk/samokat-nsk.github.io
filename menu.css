@@ -11,8 +11,7 @@ body{
 	height: 100%;
 	background: url(climb-2869560.jpg) center center no-repeat;
 	background-size: cover;
-	transition: 3s;
-	animation: 20s ease infinite;
+	background: linear-gradient(#001133, #003377);
 	}
 @keyframes slide{
 	0%{
