@@ -14,14 +14,17 @@ body{
 @keyframes slide{
 	0%{
 		background: url(roller-4953510.jpg) center center no-repeat;
+		background: linear-gradient(#003377, #337799);
 		background-size: cover;
 		}
 	50%{
 		background: url(scooter-3620869.jpg) center center no-repeat;
+		background: linear-gradient(#001133, #003377);
 		background-size: cover;
 		}
 	100%{
 		background: url(roller-4953510.jpg) center center no-repeat;
+		background: linear-gradient(#003377, #337799);
 		background-size: cover;
 		}
 	}
