@@ -1,0 +1,164 @@
+﻿*{
+	color: #ffffff;
+	font-family: Comic Sans MS, Arial;
+	text-align: center;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	}
+body{
+	width: 100%;
+	height: 100%;
+	background: url(roller-4953510.jpg) center center no-repeat;
+	}
+header{
+	width: 65%;
+	margin: 0 20px 20px 20px;
+	padding: 30px;
+	border-radius: 30px;
+	box-shadow: 10px 10px 30px #000000;
+	background: rgba(0,0,0,.3);
+	text-shadow: 10px 10px 10px #000000;
+	float: left;
+	}
+.theme{
+	font-size: 70;
+	animation: color 40s ease infinite;
+	}
+@keyframes color{
+	0%{
+		color: transparent;
+		}
+	25%{
+		color: #ffffff;
+		}
+	50%{
+		color: #aaddff;
+		}
+	75%{
+		color: #ffffaa;
+		}
+	100%{
+		color: transparent;
+		}
+	}
+.idea{
+	margin-left: 400px;
+	width: 19ch;
+	color: #ffffff;
+	font-size: 40px;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: color 40s ease infinite,
+		print 10s ease;
+}
+@keyframes print{
+	from{
+		width: 0;
+		}
+	}
+.menu{
+	margin-left: 100px;
+	width: 65%;
+	float: left;
+	}
+.menu ul{
+	display: flex;
+	flex-wrap: wrap;
+	}
+.menu ul li{
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	padding: 10px;
+	font-size: 20;
+	text-shadow: 10px 10px 10px #000000;
+	border-radius: 10px;
+	border: 1px dotted #ffffff;
+	background: rgba(0,0,0,.3);
+	float: right;
+	}
+.menu ul li:hover{
+	color: #aaddff;
+	font-size: 18;
+	border: 1px dotted #aaddff;
+	box-shadow: 10px 10px 10px #000000;
+	background: rgba(0,0,0,.5);
+	transition: 1s;
+	}
+#li1:hover{
+	background: url(helm.jpg) center center no-repeat;
+	background-size: 60%;
+	}
+#li2:hover{
+	background: url(wheel.jpg) center center no-repeat;
+	background-size: 60%;
+	}
+#li3:hover{
+	background: url(system.jpg) center center no-repeat;
+	background-size: 60%;
+	}
+#li4:hover{
+	background: url(retainer.jpg) center center no-repeat;
+	background-size: 60%;
+	}
+#li5:hover{
+	background: url(axes.jpg) center center no-repeat;
+	background-size: 60%;
+	}
+#li6:hover{
+	background: url(accessories.jpg) center center no-repeat;
+	background-size: 60%;
+	}
+span{
+	font-size: 17;
+	}
+nav{
+	width: 20%;
+	margin-left: 75%;
+	margin-top: 30px;
+	padding: 20px 10px;
+	font-size: 25;
+	border-radius: 30px;
+	background: rgba(0,0,0,.3);
+	}
+nav ul li{
+	padding: 10px;
+	border-radius: 10px;
+	}
+nav ul li:hover{
+	color: #ffffaa;
+	text-shadow: 10px 10px 10px #000000;
+	box-shadow: 10px 10px 10px #000000;
+	background: rgba(0,0,0,.3);
+	transition: .7s;
+	}
+#li7{
+	text-shadow: 10px 10px 10px #000000;
+	background: rgba(0,0,0,.3);
+	animation: color 40s ease infinite;	
+	}
+#li7:hover{
+	background: rgba(0,0,0,.5);
+	transition: 1s;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
